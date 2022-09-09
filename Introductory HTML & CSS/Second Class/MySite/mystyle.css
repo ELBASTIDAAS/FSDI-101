@@ -1,0 +1,27 @@
+/*global*/
+
+body{
+    font-family: arial;
+    background-color: black;
+    color: white;
+}
+p{
+    text-align: justify;
+    line-height: 2;
+}
+h1,h2{
+    text-align: center;
+}
+
+/*main*/
+.title-greeting{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: yellow;
+    font-size: 22px;
+}
