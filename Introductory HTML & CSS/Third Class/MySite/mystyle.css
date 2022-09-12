@@ -1,0 +1,72 @@
+/*global*/
+body{
+    font-family:'lato', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+p{
+    text-align: justify;
+    line-height: 2;
+}
+h1,h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*utilities*/
+.btn{
+    display: block;
+    background-color: rgb(245, 184, 105);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px;
+}
+.btn-small{
+    width: 200px;
+    font-size: 20px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+/*header*/
+header.site-header{
+    flex-basis: 40%;
+    display: flex;
+    align-items: column;
+    justify-content: center;
+    height: 100vh
+}
+/*menu*/
+/*main*/
+main.site-main{
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.title-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(245, 184, 105);
+    font-size: 22px;
+}
+.title-name span{
+    color:rgb(245, 184, 105);
+}
