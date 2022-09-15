@@ -1,0 +1,186 @@
+/*global*/
+body{
+    font-family:'lato', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+p{
+    text-align: justify;
+    line-height: 2;
+}
+h1,h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+.btn{
+    display: block;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn-small{
+    width: 150px;
+    font-size: 14px;
+}
+.btn:first-child(odd){
+    color: black;
+    border-left: 5px solid black;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+header.site-header{
+    flex-basis: 30%;
+}
+.my-photo
+{
+    width: 300px;
+    margin-left:  auto;
+    margin-right:  auto;
+    border-radius: 50%;
+    border: 10px solid orange;
+    padding: 3px;
+    opacity: 0.7;
+    display: block;
+}
+/*menu*/
+.menu-social{
+    text-align: center;
+    margin-top: 30px;
+}
+.menu-social i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-youtube{
+    color: rgb(189, 1, 1);
+}
+.fa-researchgate{
+    color: aqua;
+}
+/*main*/
+main.site-main{
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.title-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(245, 184, 105);
+    font-size: 22px;
+}
+.title-name span{
+    color:rgb(245, 184, 105);
+}
+/*educaction*/
+
+.box {
+    background-color: orange;
+    opacity: 50%;
+    padding: 10px;
+    margin: 30px;
+}
+.degree-header{
+    display: flex;
+    align-items: center;
+}
+.degree-header i{
+border: 2xp solid yellow;
+border-radius: 50%;
+padding: 10px;     
+}
+.box p{
+    font-size: 14;
+}
+.degree-title{
+    text-transform: uppercase;
+    color: yellow;
+    word-spacing: 3px;
+    font-weight: 300;
+}
+/*contact*/
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body{
+  background: #F0F0F0;
+  font-family: Open Sans ,sans-serif;
+  line-height:1.5em;
+}
+#contact {
+width: 300px;
+margin:2em auto;
+background:white;
+position: relative;
+}
+#contact::after {
+content: "";
+display: block;
+height: 30px;
+width: 90%;
+left: 5%;
+bottom: 0;
+position: absolute;
+border-radius: 100%;
+}
+#contact article {
+  padding: 1em;
+}
+#contact h1 {
+background:orange;
+font-family: Oswald ,sans-serif;
+font-size: 1.75em;
+padding: 0.6em 0 0.6em 0.4em;
+color: black;
+text-shadow: 0 0.06em 0 #424242;
+position: relative;
+}
+.fa-location-dot{
+    display: block;
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+}
+.fa-envelope{
+    display: block;
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+}
+.fa-phone{
+    display: block;
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+}
+.para{
+    color: orange;
+    text-align: center;
+}
